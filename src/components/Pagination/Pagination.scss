@@ -1,0 +1,22 @@
+.Pagination {
+    justify-content: center;
+    .page-link {
+        transition: 0.5s all;
+        color: #5799b9;
+            &:hover {
+                cursor: pointer;
+            }
+    }
+
+    .active {
+        .page-link {
+            background-color: #C61414;
+            border-color: #C61414;
+                &:hover {
+                    color: #C61414;
+                    background-color: #e9ecef;
+                    border-color: #dee2e6;
+                }
+        }
+    }
+}

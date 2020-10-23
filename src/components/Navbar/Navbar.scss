@@ -1,0 +1,52 @@
+.color-nav {
+  background: #c61414 !important;
+}
+form {
+  width: 80% !important;
+  position: relative;
+  
+    &:before {
+      content: "\f3eb";
+      font-weight: 900;
+      font-size: 1.5em;
+      display: block;
+      font-family: "Font Awesome 5 Brands";
+      position: absolute;
+      top: 50%;
+      left: 10px;
+      z-index: 9999;
+      transform: translateY(-50%);
+    }
+  
+  input {
+    width: 100% !important;
+    position: relative;
+    padding-left: 2.5rem !important;
+  }
+}
+
+.custom-nav-link {
+  display: flex;
+  line-height: 1;
+  color: #212529;
+  transition: .3s all ease;
+
+    &:hover {
+      color: #fff;
+    }
+
+  span {
+  margin-left: 7px;
+  }
+}
+
+.nav-item {
+  margin-left: 10px;
+}
+
+.navbar-brand {
+  width: 70%;
+  img {
+    width: 70%;
+  }
+}

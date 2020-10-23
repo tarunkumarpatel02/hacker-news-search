@@ -1,0 +1,12 @@
+.btn-danger.resetStateDateBtn {
+    margin: 15px 20px;
+    display: none;
+
+    &:last-child {
+        display: block !important;
+    }
+}
+
+.DateRangePicker {
+    margin: 15px 20px;
+}

@@ -1,0 +1,44 @@
+.Comment {
+  padding: 0 20px;
+  margin: 15px 0;
+
+  .header {
+    line-height: 2;
+
+    h5 {
+      color: #d57575;
+      margin-right: .5em;
+      margin-bottom: 0;
+      font-size: 1.1em;
+    }
+
+    span {
+      color: #d57575;
+    }
+  }
+
+  .stats {
+    span {
+      color: #d57575;
+      position: relative;
+      margin-right: 5px;
+      
+      &:not(:first-child) {
+        margin: 0 5px;
+      }
+
+      &:not(:last-child) {
+          &:after {
+            content: "|";
+            display: block;
+            position: absolute;
+            top: 50%;
+            left: 100%;
+            transform: translateY(-50%);
+            margin-left: 3px;
+          }
+        }
+      }
+
+  }
+}
